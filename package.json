@@ -1,0 +1,31 @@
+{
+    "name": "koa-interface",
+    "version": "1.0.0",
+    "description": "node.js koa interface",
+    "main": "app.js",
+    "scripts": {
+        "serve": "node app.js",
+        "nodemon": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/newlifebegins/koa-interface.git"
+    },
+    "keywords": [
+        "nodejs",
+        "koa"
+    ],
+    "author": "wangwei",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/newlifebegins/koa-interface/issues"
+    },
+    "homepage": "https://github.com/newlifebegins/koa-interface#readme",
+    "dependencies": {
+        "koa": "^2.6.2",
+        "koa-json": "^2.0.2",
+        "koa-router": "^7.4.0",
+        "mongoose": "^5.4.2",
+        "nodemon": "^1.18.9"
+    }
+}
