@@ -23,6 +23,7 @@
     "homepage": "https://github.com/newlifebegins/koa-interface#readme",
     "dependencies": {
         "koa": "^2.6.2",
+        "koa-bodyparser": "^4.2.1",
         "koa-json": "^2.0.2",
         "koa-router": "^7.4.0",
         "mongoose": "^5.4.2",

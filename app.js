@@ -2,9 +2,10 @@ const Koa = require("koa")
 const Json = require("koa-json")
 const Router = require("koa-router")
 const mongoose = require("mongoose")
+const bodyParser = require('koa-bodyparser')
 
 const app = new Koa()
-
+app.use(bodyParser())
 const router = new Router()
 
 app.use(Json())
